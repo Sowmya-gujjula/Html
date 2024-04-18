@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>License Register Form</h2>
+    <form action="main.py">
+        <p>All * fields are requried</p>
+        <field set>
+            <div>
+                <label for="uname">Name*:</label>
+                <input type="text" name="uname" id="uname" placeholder="Enter Name" required>
+            </div><br>
+            <div>
+                <label for="email">Email*:</label>
+                <input type="email" name="email" id="email" placeholder="Enter Email">
+            </div><br>
+            <div>
+                <label for="pwd">Password*:</label>
+                <input type="password" name="pwd" id="pwd" placeholder="Enter Password" minlength="6 maxlenght=10">
+            </div><br>
+            <div>
+                <label for="age">Age*:</label>
+                <input type="number" name="age" id="age" placeholder="Enter Age" maxage="25" minage="18">
+            </div><br>
+            <div>
+                <label for="dob">Date Of Birth*:</label>
+                <input type="date" name="dob" id="dob" placeholder="Enter DOB">            
+            </div><br>
+            <div>
+                <p>Gender*:</p>
+                <label for="male">Male</label>
+                <input type="radio" name="m" id="ma">
+                <label for="female">Female</label>
+                <input type="radio" name="m" id="fe">
+            </div><br>
+            <div>
+                <label for="vehicles">vehicles*:</label>
+                <select name="vehicles">
+                <optgroup label="vehicles">
+                    <option value="">Two Wheeler</option>
+                    <option value="">Three Wheeler</option>
+                </optgroup>
+                </select>
+            </div><br>
+            <div>
+                <select vehicles="brand" id="brand">
+                    <optgroup label="Two Wheeler">
+                        <option value="">Royal Enfield</option>
+                        <option value="">Pulsar</option>
+                        <option value="">Tvs</option>
+                        <option value="">Honda</option>
+                        <option value="">Ktm</option>
+                    </optgroup>
+                    <optgroup label="Four Wheeler">
+                        <option value="">BMW</option>
+                        <option value="">Suzuki</option>
+                        <option value="">Tata</option>
+                        <option value="">Ford</option>
+                        <option value="">Tesla</option>
+                    </optgroup>
+                </select>
+            </div><br>
+            <button type="submit">Submit</button>
+
+
+
+
+        </field>
+
+    </form>
+    
+
+    
+</body>
+</html>
