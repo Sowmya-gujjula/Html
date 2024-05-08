@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>.Net Documentation</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>.Net Documentation</h1>
+        <ul>
+          <a href="#Introduction">
+            <li>Introduction</li>
+          </a>
+          <a href="#C# | .NET Framework (Basic Architecture and Component Stack)">
+            <li>C# | .NET Framework (Basic Architecture and Component Stack)</li>
+          </a>
+          <a href="#Hello World in C#"><li>#Hello World in C#</li></a>
+          <a href="#Common Language Runtime (CLR) in C#"><li>Common Language Runtime (CLR) in C#</li></a>
+          <a href="#C# | Identifiers"><li>C# | Identifiers</li></a>
+          <a href="#C# | Data Types"><li>C# | Data Types</li></a>
+          <a href="#C# | Variables"><li>C# | Variables</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="Introduction">
+        <h2>Introduction</h2>
+        <article>
+          <p>
+            The .NET Framework is a <b>software development framework</b> developed by <b>Microsoft</b> that provides a runtime environment and a set of libraries and tools for building and running applications on Windows operating systems.
+            The framework includes a variety of programming languages, such as <b> C#, F#, and Visual Basic, and supports a range of application types, including desktop, web, mobile, and gaming applications.</b>
+          </p>
+          <p>The .NET Framework includes two main components:<b> the Common Language Runtime (CLR) and the .NET Framework Class Library.</b>
+             The CLR is responsible for managing the execution of code written in any of the supported languages, while the class library provides a large set of pre-built functions and classes that can be used to create a wide range of applications.
+             One of the key advantages of the .NET Framework is its support for a variety of programming languages.
+          </p>
+          <p>
+             This means that developers can choose the language that best fits their needs and expertise, while still being able to use the same set of libraries and tools provided by the framework.
+             Another advantage of the .NET Framework is its support for a variety of application types
+          </p>
+          <p>
+             The framework <b>includes libraries and tools for creating desktop, web, mobile, and gaming applications,</b> which makes it a versatile choice for developers working on a wide range of projects.
+             The .NET Framework also provides a number of features that help improve the <b> security, reliability, and performance of applications.</b> These include features such as code access security, automatic memory management, and just-in-time (JIT) compilation, which helps improve the speed of application execution.
+             The .NET Framework is also designed to integrate with other Microsoft technologies, such as Microsoft SQL Server, Microsoft SharePoint, and Microsoft Office, which can make it easier to build applications that work seamlessly with other Microsoft products.
+          </p>
+        </article>
+      </section>
+      <section id="C# | .NET Framework (Basic Architecture and Component Stack)">
+        <h2>C# | .NET Framework (Basic Architecture and Component Stack)</h2>
+        <article>
+          <p>Microsoft created the language C#, known as C Sharp, in the year 2000. 
+             C# is an object-oriented programming language that is used in .NET Framework. 
+             C# is designed to be simple, efficient, and versatile, and is often used to build a wide range of desktop, web, and mobile applications.
+          </p>
+          <p>
+             The .NET Framework is a software development framework that provides a runtime environment and a set of libraries and tools for building and running applications on Windows operating systems.
+             The framework includes a variety of programming languages, including C#, and supports a range of application types, including desktop, web, mobile, and gaming applications.
+          </p>
+          <p> 
+             The .NET Framework’s basic architecture consists of two key elements:<br>
+             <b>Common Language Runtime (CLR):</b> The Common Language Runtime is responsible for managing the execution of code written in any of the .NET-supported languages. 
+                                                   When an application is run, the CLR loads the required libraries and compiles the code into machine code that can be executed by the computer’s processor. 
+                                                   The CLR also provides a number of services, such as automatic memory management and security, that help ensure that applications are reliable and secure.<br>
+             
+             <b>.NET Framework Class Library (FCL):</b> The .NET Framework Class Library provides a large set of pre-built functions and classes that can be used to create a wide range of applications.
+                                                        The library includes a variety of namespaces that provide access to classes that provide features such as file I/O, networking, database access, and graphical user interface (GUI) design.
+                                                        The library also includes a number of development tools, such as the Visual Studio integrated development environment (IDE), which provides a powerful set of tools for developing and debugging .NET applications.<br>
+          </p>
+          <p>
+            <b>Basic Architecture and Component Stack of .NET Framework</b><br>
+            The first three components from the bottom are considered as the basic architecture of .Net framework which came in the year 2005 and after this more components were added by Microsoft in the .Net Framework as following :<br>
+            <b>1. CLR (Common Language Runtime):</b> It is a run-time environment that executes the code written in any .NET programming language.<br> 
+                                                     .Net framework provides support for many languages like C#, F#, C++, Cobra, Jscript.Net, VB.Net, Oxygene, etc.<br>
+            <b>2. FCL (Framework Class Library) :</b> A large number of class libraries are present in this framework which is known as FCL.<br>
+            <b>3. Types of Applications:</b> Mainly the applications that are built in the .Net framework are divided into the following three categories :<br>
+                                             <b>WinForms:</b> Form–Based applications are considered under this category.<br> 
+                                                              In simple terms, we can say client-based applications that read and write the file system come under this category.<br>
+                                             <b>ASP .NET:</b> Web-based applications come under this category.<br> 
+                                                              ASP.Net is a framework for the web and it provides an awesome integration of HTML, CSS, and JavaScript which makes it useful to develop web applications, websites, and web services.<br>
+                                                              Web services were added in .Net Framework 2.0 and considered as a part of ASP.NET web applications.<br>
+                                             <b>.ADO .NET:</b> It includes the applications that are developed to communicate with the database like MS SQL Server, Oracle, etc. 
+                                                               It mainly consists of classes that can be used to connect, retrieve, insert, and delete data.<br>
+            <b>4. WPF (Windows Presentation Foundation):</b> Windows Presentation Foundation (WPF) is a graphical subsystem given by Microsoft that uses DirectX and is used in Windows-based applications for rendering UI (User Interface).<br>
+                                                             WPF was initially released as part of .NET Framework 3.0 in 2006 and was previously known as “Avalon”.<br>
+            <b>5. WCF (Windows Communication Foundation):</b> It is a framework for building connected and service-oriented applications used to transmit data asynchronously from one service endpoint to another service point.<br>
+                                                              It was previously known as the Indigo.<br>
+            <b>6. WF (Windows Workflow Foundation):</b> It is a technology given by Microsoft that provides a platform for building workflows within .Net applications.<br>
+            <b>7. Card Space:</b> It is a Microsoft .NET Framework software client that is designed to let users provide their digital identity to online services in a secure, simple, and trusted way.<br>
+            <b>8. LINQ (Language Integrated Query):</b> It is introduced in .Net framework version 3.5. Basically, it is a query language used to make the query for data sources with VB or C# programming languages.<br>
+            <b>9. Entity Framework:</b> It is an open–source ORM (Object Relational Mapping) based framework that comes into .Net Framework version 3.5. It enables the .Net developer to work with a database using .Net objects.<br>
+                                        Before the entity framework, .Net developers performed a lot of things related to databases. Like to open a connection to the database, developers have to create a Data Set to fetch or submit the data to the database, convert data from the Data Set to .NET objects, or vice-versa.<br>
+                                        It creates difficulties for developers and also it was an error-prone process, then “Entity Framework” comes to automate all these database-related activities for the application. So, Entity Framework allows the developers to work at a higher level of abstraction. <br>
+            <b>Note:</b> REST (Representational State Transfer) and AJAX were added in .Net Framework 3.5 as an extension and services of ASP.NET for enhancing web services of .NET Framework.<br>
+            <b>10. Parallel LINQ (Language Integrated Query):</b> It comes in .Net Framework version 4.0 and is also termed PLINQ. It provides a concurrent query execution engine for LINQ.<br>
+                                                                  It executes the LINQ in parallel such that it tries to use as much processing power the system on which it is executing.<br>
+            <b>11. TPL (Task Parallel Library):</b> It is a set of public types and APIs. It allows the developers to be more productive by simplifying the process of adding concurrency and parallelism to .Net applications.<br>
+            <b>12. .NET API For Store/UWP Apps:</b> In 2012, Microsoft added some APIs for creating UWP(Universal Windows Platform) apps for Windows using C# or VB.<br>
+            <b>13. Task-Based Asynchronous Model:</b> It is a model used to describe the asynchronous operations and tasks in the .Net Framework.<br>
+          </p>
+        </article>
+      </section>
+      <section id="Hello World in C#">
+        <h2>Hello World in C#</h2>
+        <article>
+          <p>
+            The Hello World! program is the most basic and first program when you dive into a new programming language. This simply prints the Hello World! on the output screen. In C#, a basic program consists of the following:<br>
+            1.A Namespace Declaration<br>
+            2.Class Declaration & Definition<br>
+            3.Class Members(like variables, methods etc.)<br>
+            4.Main Method<br>
+            5.Statements or Expressions<br>
+          </p>
+          <p>
+            <code>
+            // C# program to print Hello World!
+            using System;
+
+            // namespace declaration
+            namespace HelloWorldApp {
+    
+            // Class declaration 
+            class Geeks { 
+        
+            // Main Method 
+            static void Main(string[] args) { 
+            
+            // statement 
+            // printing Hello World! 
+            Console.WriteLine("Hello World!"); 
+            
+            // To prevents the screen from 
+            // running and closing quickly 
+            Console.ReadKey();
+        } 
+    } 
+}
+            </code>
+          </p>
+
+        </article>
+      </section>
+      <section id="Common Language Runtime (CLR) in C#">
+        <h2>Common Language Runtime (CLR) in C#</h2>
+        <article>
+          <p>
+            The Common Language Runtime (CLR) is a component of the Microsoft .NET Framework that manages the execution of .NET applications.
+            It is responsible for loading and executing the code written in various .NET programming languages, including C#, VB.NET, F#, and others.
+            When a C# program is compiled, the resulting executable code is in an intermediate language called Common Intermediate Language (CIL) or Microsoft Intermediate Language (MSIL).
+            This code is not machine-specific, and it can run on any platform that has the CLR installed.<br> 
+            When the CIL code is executed, the CLR compiles it into machine code that can be executed by the processor.
+            The CLR provides many services to .NET applications, including memory management, type safety, security, and exception handling.
+            It also provides Just-In-Time (JIT) compilation, which compiles the CIL code into machine code on the fly as the program runs, optimizing performance.
+            Additionally, the CLR provides a framework for developing and deploying .NET applications, including a set of libraries, called the .NET Framework Class Library, which provides access to a wide range of functionality, such as input/output operations, networking, database connectivity, and user interface design.<br>
+           
+            Overall, the CLR is a critical component of the .NET Framework and is responsible for ensuring that .NET applications are executed in a safe, secure, and efficient manner, making it a fundamental aspect of C# programming.
+            CLR is the basic and Virtual Machine component of the .NET Framework. 
+            It is the run-time environment in the .NET Framework that runs the codes and helps in making the development process easier by providing the various services. Basically, it is responsible for managing the execution of .NET programs regardless of any .NET programming language.<br>
+            Internally, CLR implements the VES(Virtual Execution System) which is defined in the Microsoft’s implementation of the CLI(Common Language Infrastructure). 
+            The code that runs under the Common Language Runtime is termed as the Managed Code.
+            In other words, you can say that CLR provides a managed execution environment for the .NET programs by improving the security, including the cross language integration and a rich set of class libraries, etc. CLR is present in every .NET framework version. Below table illustrate the CLR version in .NET framework.
+          </p>
+          <a href="https://www.geeksforgeeks.org/common-language-runtime-clr-in-c-sharp/?ref=lbp">More information about CLR</a>
+        </article>
+      </section>
+      <section id="C# | Identifiers">
+        <h2>C# | Identifiers</h2>
+        <article>
+          <p>
+            In programming languages, identifiers are used for identification purposes. Or in other words, identifiers are the user-defined name of the program components. In C#, an identifier can be a class name, method name, variable name, or label.<br>
+            Example:<br>
+            <code>
+            public class GFG {
+              static public void Main () 
+              {
+                    int x;
+              }
+            }
+            </code>
+            Here the total number of identifiers present in the above example is 3 and the names of these identifiers are: <br>
+            GFG: Name of the class<br>
+            Main: Method name<br>
+            x: Variable name<br>
+            Rules for defining identifiers in C#:<br>
+            There are certain valid rules for defining a valid C# identifier. These rules should be followed, otherwise, we will get a compile-time error.<br> 
+ 
+            1.The only allowed characters for identifiers are all alphanumeric characters([A-Z], [a-z], [0-9]), ‘_‘ (underscore). For example “geek@” is not a valid C# identifier as it contain ‘@’ – special character.<br>
+            2.Identifiers should not start with digits([0-9]). For example “123geeks” is not valid in the C# identifier.<br>
+            3.Identifiers should not contain white spaces.<br>
+ 
+            
+            1.Identifiers are not allowed to use as keywords unless they include @ as a prefix. For example, @as is a valid identifier, but “as” is not because it is a keyword.<br>
+            2.C# identifiers allow Unicode Characters.<br>
+            3.C# identifiers are case-sensitive.<br>
+            4.C# identifiers cannot contain more than 512 characters.<br>
+            5.Identifiers do not contain two consecutive underscores in their name because such types of identifiers are used for the implementation.<br>
+            <code>
+              // Simple C# program to illustrate identifiers
+              using System;
+              class GFG {
+              // Main Method
+              static public void Main()
+              {
+             // variable
+             int a = 10;
+             int b = 39;
+             int c;
+            // simple addition
+            c = a + b;
+           Console.WriteLine("The sum of two number is: {0}", c);
+    }
+}
+            </code>
+           
+          </p>
+           
+        </article>
+      </section>
+      <section id="C# | Data Types">
+        <h2>C# | Data Types</h2>
+        <article>
+          <p>
+            Data types specify the type of data that a valid C# variable can hold. 
+            C# is a strongly typed programming language because in C#, each type of data (such as integer, character, float, and so forth) is predefined as part of the programming language and all constants or variables defined for a given program must be described with one of the data types.<br>
+
+            Data types in C# is mainly divided into three categories:<br>
+            <b>1.Value Data Types<br>
+            2.Reference Data Types<br>
+            3.Pointer Data Type </b><br>
+
+            <b>1.Value Data Types :</b> In C#, the Value Data Types will directly store the variable value in memory and it will also accept both signed and unsigned literals. The derived class for these data types are System.ValueType. Following are different Value Data Types in C# programming language :<br>
+                   ~<b>Signed & Unsigned Integral Types :</b> There are 8 integral types which provide support for 8-bit, 16-bit, 32-bit, and 64-bit values in signed or unsigned form.<br>
+
+          </p>
+          <table border="1">
+            <tr>
+                <th>Alias</th>
+                <th>Type Name</th>
+                <th>Type</th>
+                <th>Size(bits)</th>
+                <th>Range</th>
+                <th>Default Value</th>
+            </tr>
+            <tr>
+              <th>sbyte</th>
+              <th>System.Sbyte	</th>
+              <th>signed integer</th>
+              <th>8</th>
+              <th>-128 to 127</th>
+              <th>0</th>
+            </tr>
+            <tr>
+              <th>short</th>
+              <th>System.Int16</th>
+              <th>singed integer</th>
+              <th>16</th>
+              <th>-32768 to 32767</th>
+              <th>0</th>
+            </tr>
+            <tr>
+              <th>Int</th>
+              <th>System.Int32</th>
+              <th>signed integer</th>
+              <th>32</th>
+              <th>-2<sup>31</sup> to 2<sup>31</sup>-1</th>
+              <th>0</th>
+            </tr>
+            <tr>
+              <th>long</th>
+              <th>System.Int64</th>
+              <th>signed integer</th>
+              <th>64</th>
+              <th>-2<sup>63</sup> to 2<sup>63</sup>-1</th>
+              <th>oL</th>
+            </tr>
+            <tr>
+              <th>byte</th>
+              <th>Syatem.byte</th>
+              <th>unsigned integer</th>
+              <th>8</th>
+              <th>0 to 255</th>
+              <th>0</th>
+            </tr>
+            <tr>
+              <th>ushort</th>
+              <th>System.UInt16</th>
+              <th>unsigned integer</th>
+              <th>16</th>
+              <th>0 to 65535</th>
+              <th>0</th>
+            </tr>
+            <tr>
+              <th>uint</th>
+              <th>System.UInt32</th>
+              <th>unsigned integer</th>
+              <th>32</th>
+              <th>0 to 2<sup>32</sup></th>
+              <th>0</th>
+            </tr>
+            <tr>
+              <th>ulong</th>
+              <th>System.UInt64</th>
+              <th>unsigned integer</th>
+              <th>64</th>
+              <th>0 to 2<sup>63</sup></th>
+              <th>0</th>
+            </tr>
+            <p>
+              <b>Floating Point Types :</b> are 2 floating point data types which contain the decimal point.<br>
+                 <b>~Float:</b> It is 32-bit single-precision floating point type. It has 7 digit Precision. To initialize a float variable, use the suffix f or F. Like, float x = 3.5F;. If the suffix F or f will not use then it is treated as double.<br>
+                 <b>~Double:</b> is 64-bit double-precision floating point type. It has 14 – 15 digit Precision. To initialize a double variable, use the suffix d or D. But it is not mandatory to use suffix because by default floating data types are the double type.<br>
+            </p>
+            <table border="1">
+              <tr>
+                <th>Alias</th>
+                <th>Type name</th>
+                <th>Size(bits)</th>
+                <th>Range(aprox)</th>
+                <th>Default Value</th>
+              </tr>
+              <tr>
+                <th>float</th>
+                <th>System.Single</th>
+                <th>32</th>
+                <th>+-1.5*10<sup>-45</sup>to +-3.4*10<sup>38</sup></th>
+                <th>0.0F</th>
+              </tr>
+              <tr>
+                <th>double</th>
+                <th>System.Double</th>
+                <th>64</th>
+                <th>+-5.0*10<sup>-324</sup>to +-1.7*10<sup>308</sup></th>
+                <th></th>
+              </tr>
+            </table>
+            <a href="https://www.geeksforgeeks.org/c-sharp-data-types/?ref=lbp">More information about data types</a>
+          </article>
+      </section>
+      <section id="C# | Variables">
+        <h2>C# | Variables</h2>
+        <article>
+          <p>A typical program uses various values that may change during its execution.
+             For example, a program that performs some operations on the values entered by the user. The values entered by one user may differ from those entered by another user.
+             Hence this makes it necessary to use variables as another user may not use the same values. When a user enters a new value that will be used in the process of operation, can store temporarily in the Random Access Memory of computer and these values in this part of memory vary throughout the execution and hence another term for this came which is known as Variables.
+             So basically, a Variable is a placeholder of the information which can be changed at runtime. And variables allows to Retrieve and Manipulate the stored information.<br>
+             <b>Syntax:</b><br>
+             <code>   
+             type variable_name = value; 
+             or
+             type variable_names;
+             </code>
+             <b>Example:</b><br>
+             char var = 'h'; // Declaring and Initializing character variable<br>
+             int a, b, c; // Declaring variables a, b and c of int type<br>
+            </p>
+            <p>
+              <b>Characteristics of Variables:</b><br>
+              <b>name :</b> It must be a valid identifier. In above example, var is a valid identifier.<br>
+              <b>type :</b> It defines the types of information which is to be stored into the variable. In above example char is a type.<br>
+              <b>value :</b> It is the actual data which is to be stored in the variable. In above example ‘h’ is the value.<br>
+
+              
+              <mark>More information aboyt .NET:</mark><a href="https://www.geeksforgeeks.org/introduction-to-net-framework/?ref=shm">Click Here</a>
+            </p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
